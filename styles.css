@@ -1,0 +1,43 @@
+body{
+    font-family: Verdana, sans-serif;
+}
+
+#chatbox {
+    width: 80%;
+    height: 500px;
+    border: 1px solid grey;
+    padding: 0.4rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+.admin {
+    padding: 0.5rem;
+    background-color: yellow;
+}
+
+.client {
+    padding: 0.2rem;
+    color: blue;
+}
+
+.time{
+    font-weight: bold;
+    padding: 0.5rem;
+    border-top: 1px solid grey;
+}
+
+#input{
+    width: 25%;
+    height: 35px;
+}
+
+#send{
+    width: 10%;
+    height: 40px;
+    color: white;
+    font-weight: bold;
+    background-color: blue;
+}
